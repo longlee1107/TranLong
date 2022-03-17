@@ -1,0 +1,119 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-style: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+.overview {
+    .menu-header {
+        .menu {
+            align-items: center;
+            justify-content: center;
+            a {
+                i {
+                    font-size: 1.5rem;
+                    color: #000;
+                }
+            }
+        }
+        .logo {
+            justify-content: center;
+            display: flex;
+            font-size: 2rem;
+            font-weight: 800;
+        }
+        .search {
+            a {
+                i {
+                    font-size: 1.5rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .content {
+        .about {
+            .header1 {
+                color: #FF5B79;
+                line-height: 0.5;
+            }
+            .header2 {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 0.8rem;
+                line-height: 1.5;
+            }
+            .select {
+                p {
+                    font-size: 0.8rem;
+                    font-weight: 800;
+                }
+                .number {
+                    font-size: 0.9rem;
+                }
+                .selected {
+                    font-size: 0.95rem;
+                    font-weight: bold;
+                }
+                .color {
+                    p {
+                        font-size: 0.8rem;
+                        font-weight: 800;
+                    }
+                    .select-color {
+                        display: flex;
+                    }
+                }
+            }
+        }
+        .circle {
+            .circle1 {
+                width: 10vw;
+                height: 20vh;
+                border-radius: 50%;
+                background: rgb(255, 2, 128);
+                position: absolute;
+                margin: 0 auto;
+                top: 30%;
+                right: 33%;
+            }
+            .circle2 {
+                position: relative;
+                width: 20vw;
+                height: 40vh;
+                border-radius: 50%;
+                background: rgb(0, 162, 255);
+                position: relative;
+                margin: 0 auto;
+            }
+        }
+    }
+    .info {
+        .heading-info {
+            font-size: 01rem;
+            font-weight: 800;
+            color: #000;
+        }
+        p {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        .page {
+            button {
+                height: 90%;
+                width: 20%;
+                font-weight: 800;
+                font-size: 1rem;
+                border: none;
+            }
+            .prev {
+                background-color: #FF5B79;
+            }
+            .next {
+                background-color: #4BD4FF;
+            }
+        }
+    }
+}

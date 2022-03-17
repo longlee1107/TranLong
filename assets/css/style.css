@@ -1,0 +1,124 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  font-style: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+.overview .menu-header .menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overview .menu-header .menu a i {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.overview .menu-header .logo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.overview .menu-header .search a i {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.overview .content .about .header1 {
+  color: #FF5B79;
+  line-height: 0.5;
+}
+
+.overview .content .about .header2 {
+  font-size: 3rem;
+}
+
+.overview .content .about p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.overview .content .about .select p {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.overview .content .about .select .number {
+  font-size: 0.9rem;
+}
+
+.overview .content .about .select .selected {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.overview .content .about .select .color p {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.overview .content .about .select .color .select-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overview .content .circle .circle1 {
+  width: 10vw;
+  height: 20vh;
+  border-radius: 50%;
+  background: #ff0280;
+  position: absolute;
+  margin: 0 auto;
+  top: 30%;
+  right: 33%;
+}
+
+.overview .content .circle .circle2 {
+  position: relative;
+  width: 20vw;
+  height: 40vh;
+  border-radius: 50%;
+  background: #00a2ff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.overview .info .heading-info {
+  font-size: 01rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.overview .info p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.overview .info .page button {
+  height: 90%;
+  width: 20%;
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+}
+
+.overview .info .page .prev {
+  background-color: #FF5B79;
+}
+
+.overview .info .page .next {
+  background-color: #4BD4FF;
+}
+/*# sourceMappingURL=style.css.map */
